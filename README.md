@@ -13,3 +13,26 @@
 
 
 
+## MLFLOW 
+
+## DAGSHUB
+
+MLFLOW_TRACKING_URI=https://dagshub.com/abdullahsheikh0945/CHEST_CANCER_DETECTION.mlflow \
+MLFLOW_TRACKING_USERNAME=abdullahsheikh0945 \
+MLFLOW_TRACKING_PASSWORD=28ce57c27917c5d26e494f1779e2dd44bad1ea7a \
+python script.py
+
+
+Run this to export as env variables:
+
+```bash
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/abdullahsheikh0945/CHEST_CANCER_DETECTION.mlflow 
+
+export MLFLOW_TRACKING_USERNAME=abdullahsheikh0945 
+
+export MLFLOW_TRACKING_PASSWORD=28ce57c27917c5d26e494f1779e2dd44bad1ea7a 
+
+```
+
+
